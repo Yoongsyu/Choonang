@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+	background-color : #E0F7FA;
+}
+
+table{
+	margin:0 auto;
+	width: 800px;
+	height: 500px;
+	border-collapse: collapse;
+}
+
+th{
+	background-color: #00ACC1;
+}
+
+td{
+	text-align: center;
+	border-bottom: 1px solid #1976D2;
+}
+
+#td1{
+	width: 10%;
+}
+
+#td2{
+	width: 20%;
+}
+
+.title{
+	text-align: left;
+}
+
+tr:hover{
+	background-color: #80DEEA;	
+}
