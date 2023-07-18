@@ -11,4 +11,25 @@ public class IndexController {
 		public String index() {
 			return "index"; // 데이터 붙임 없이 index.jsp페이지만 보여줍니다
 		}
+		
+		@GetMapping("/board2")
+		public String board2() {
+			return "board2";
+		}
+		@GetMapping("/notice")
+		public String notice() {
+			return "notice";
+		}
+		@GetMapping("/mooni")
+		public String mooni() {
+			return "mooni";
+		}
+		@GetMapping("/monsters")
+		public String monsters() {
+			return "monsters";
+		}
+		@GetMapping("/mike")
+		public String mike() {
+			return "mike";
+		}
 }

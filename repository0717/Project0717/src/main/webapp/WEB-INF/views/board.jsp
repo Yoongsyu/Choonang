@@ -6,14 +6,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel = "stylesheet" href="./css/menu.css">
 <link rel = "stylesheet" href="./css/board.css">
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./img/favicon.ico" type="image/x-con">
 </head>
 <body>
-	<h1>보드</h1>
-	<a href="./index">index로 가기</a>
-	<div style="text-align : center;">
+<%@ include file="menu.jsp" %>
+<div style="padding:10px 10px 10px 25px;"> 
+<h1>Mike Wazowski</h1>
+
+</div>
+	<div style="text-align : center;" >	
 	<img alt = "" src="./img/image.jpg" >
-	</div>
+	<button onclick="location.href='./write'">글쓰기</button>
+	</div>	
 	<table>
 		<tr>
 		<th>번호</th>
@@ -33,5 +40,7 @@
 			</tr>
 			</c:forEach>
 	</table>
+	
+
 </body>
 </html>

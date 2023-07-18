@@ -13,7 +13,7 @@ body{
 
 table{
 	margin:0 auto;
-	width: 800px;
+	width: 1200px;
 	height: 500px;
 	border-collapse: collapse;
 }
@@ -37,10 +37,12 @@ td{
 }
 
 .title{
-	text-align: left;
+	text-align: center;
+	font-weight : bold;
 }
 
 tr:hover{
 	background-color: #AED581;	
 	font-weight : bold;
 }
+
